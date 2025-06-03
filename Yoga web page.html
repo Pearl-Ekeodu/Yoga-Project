@@ -1,229 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Yoga 🧘‍♀️</title>
-    <style>
-      body {
-        background: linear-gradient(
-          89.6deg,
-          rgb(224, 195, 174) -0%,
-          rgb(255, 210, 165) 37.7%,
-          rgb(211, 140, 173) 120%
-        );
-      }
-      h1 {
-        text-align: center;
-        color: #583836;
-      }
-      h2 {
-        text-align: center;
-        color: #583836;
-      }
-      .container {
-        display: block;
-        max-width: 500px;
-        background: #f5ceb8;
-        padding: 20px 20px;
-        border-radius: 20px;
-        margin: 20px auto;
-        box-shadow: 0px 0px 10px 0px rgba(248, 247, 247, 0.8);
-      }
-      p {
-        font-size: 15px;
-        line-height: 1.5;
-        color: #583836;
-      }
-      img {
-        max-width: 100%;
-      }
-      button {
-        display: block;
-        margin: 0 auto;
-        border: 2px solid #e0a1ab;
-        background: #e0a1ab;
-        font-size: 13px;
-        padding: 10px 15px;
-        border-radius: 20px;
-        transition: all 150ms ease-in-out;
-        color: #583836;
-      }
-      button:hover {
-        cursor: pointer;
-        background: white;
-      }
-      footer {
-        text-align: center;
-        margin: 15px 0;
-        font-size: 13px;
-      }
-      .id {
-        color: purple;
-      }
-      .theme-button {
-        margin-top: 30px;
-        font-size: 15px;
-        background: #e0a1ab;
-        color: #583836;
-        border: 1px solid #e0a1ab;
-      }
-      .theme-button:hover {
-        background: #e1aab2;
-      }
-      .yoga-intro-pic {
-        border-radius: 10px;
-        transition: all 150ms ease-in-out;
-      }
-      .yoga-intro-pic:hover {
-        filter: contrast(80%);
-        transform: scale(1.2);
-      }
-      .grid {
-        margin: 12px 0;
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-gap: 10px;
-      }
-      .grid img {
-        width: 100%;
-        border-radius: 6px;
-        transition: all 150ms ease-in-out;
-      }
-      .grid img:hover {
-        transform: scale(1.5);
-      }
-      .dark {
-        background: linear-gradient(
-          110.6deg,
-          rgb(156, 116, 129) -18.3%,
-          rgb(67, 54, 74) 16.4%,
-          rgb(47, 48, 67) 68.2%,
-          rgb(27, 23, 36) 99.1%
-        );
-        color: white;
-      }
-      .dark .container {
-        background: #584457;
-        box-shadow: 0px 0px 10px 0px rgba(248, 247, 247, 0.3);
-      }
-      .dark h1 {
-        color: white;
-      }
-      .dark h2 {
-        color: white;
-      }
-      .dark p {
-        color: white;
-      }
-      .dark a {
-        color: #142d4c;
-      }
-      .dark .id {
-        color: white;
-      }
-      .dark button {
-        color: white;
-      }
-      .dark button:hover {
-        color: #e0a1ab;
-      }
-      .dark .theme-button {
-        background: #584457;
-        border: 1px solid #584457;
-      }
-      .dark .theme-button:hover {
-        background: #e0a1ab;
-        color: white;
-        border: 1px solid #e0a1ab;
-      }
-    </style>
-  </head>
-  <body>
-    <button class="theme-button"><strong>Change Theme</strong></button>
-    <div class="container">
-      <h1>Yoga🧘</h1>
-      <h2><em>For the mind, to the body</em>...</h2>
-      <a href="https://en.wikipedia.org/wiki/Yoga" target="_blank">
-        <img
-          src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/131/229/original/r2.jpg?1719927714"
-          alt="yoga1"
-          class="yoga-intro-pic"
-        />
-      </a>
-      <div class="grid">
-        <img
-          src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/131/366/original/rr6.jpg?1720001286"
-          alt="yoga2"
-        />
-        <img
-          src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/131/368/original/r1.jpg?1720002768"
-          alt="yoga3"
-        />
-        <img
-          src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/131/227/original/r4.jpg?1719927686"
-          alt="yoga4"
-        />
-        <img
-          src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/131/228/original/r3.jpg?1719927701"
-          alt="yoga5"
-        />
-      </div>
-      <p>
-        Yoga is a mind and body practice that can build strength and
-        flexibility. It may also help manage pain and reduce stress. Various
-        styles of yoga combine physical postures, breathing techniques, and
-        meditation. Yoga is an ancient practice that may have originated in
-        India. It involves movement, meditation, and breathing techniques to
-        promote mental and physical well-being.
-      </p>
 
-      <a href="https://www.medicalnewstoday.com/articles/286745" target="_blank"
-        ><strong>Click here to read more.</strong></a
-      >
-      <br />
-      <br />
-      <button class="book-yoga"><strong>Book a free session</strong></button>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="src/styles.css">
+  <title>Yoga 🧘‍♀️</title>
+
+</head>
+
+<body>
+  <button class="theme-button"><strong>Change Theme</strong></button>
+  <div class="container">
+    <h1>Yoga🧘</h1>
+    <h2><em>For the mind, to the body</em>...</h2>
+    <a href="https://en.wikipedia.org/wiki/Yoga" target="_blank">
+      <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/131/229/original/r2.jpg?1719927714"
+        alt="yoga1" class="yoga-intro-pic" />
+    </a>
+    <div class="grid">
+      <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/131/366/original/rr6.jpg?1720001286"
+        alt="yoga2" />
+      <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/131/368/original/r1.jpg?1720002768"
+        alt="yoga3" />
+      <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/131/227/original/r4.jpg?1719927686"
+        alt="yoga4" />
+      <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/131/228/original/r3.jpg?1719927701"
+        alt="yoga5" />
     </div>
-    <footer>
-      Coded with 💗 by
-      <span class="id"
-        ><strong><em>Pearl Ekeodu</em></strong></span
-      >
-      with HTML, CSS and JavaScript.
-    </footer>
-    <script>
-      function changeTheme() {
-        let body = document.querySelector("body");
+    <p>
+      Yoga is a mind and body practice that can build strength and
+      flexibility. It may also help manage pain and reduce stress. Various
+      styles of yoga combine physical postures, breathing techniques, and
+      meditation. Yoga is an ancient practice that may have originated in
+      India. It involves movement, meditation, and breathing techniques to
+      promote mental and physical well-being.
+    </p>
 
-        // body.classlist.toggle("dark");
+    <a href="https://www.medicalnewstoday.com/articles/286745" target="_blank"><strong>Click here to read
+        more.</strong></a>
+    <br />
+    <br />
+    <button class="book-yoga"><strong>Book a free session</strong></button>
+  </div>
+  <footer>
+    Coded with 💗 by
+    <span class="id"><strong><em>Pearl Ekeodu</em></strong></span>
+    with HTML, CSS and JavaScript.
+  </footer>
 
-        if (body.classList.contains("dark")) {
-          body.classList.remove("dark");
-        } else {
-          body.classList.add("dark");
-        }
-      }
-      let themeButton = document.querySelector(".theme-button");
-      themeButton.addEventListener("click", changeTheme);
+  <script src="src/index.js"></script>
+</body>
 
-      function bookUs() {
-        let name = prompt("What is your name?");
-        let city = prompt("What is your email address?");
-        if (name.length && city.length) {
-          alert(
-            "Hello " +
-              name +
-              "! We'll be in touch with more details. Feel free to contact us at pearlonyii@gmail.com, if you have further questions. Thank You 😊."
-          );
-        } else {
-          alert(
-            "Please fill out the required information to book a session. Thank You! 😊"
-          );
-        }
-      }
-      let bookButton = document.querySelector(".book-yoga");
-      bookButton.addEventListener("click", bookUs);
-    </script>
-  </body>
 </html>

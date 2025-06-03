@@ -1,0 +1,155 @@
+body {
+    background: linear-gradient(89.6deg,
+            rgb(224, 195, 174) -0%,
+            rgb(255, 210, 165) 37.7%,
+            rgb(211, 140, 173) 120%);
+}
+
+h1 {
+    text-align: center;
+    color: #583836;
+}
+
+h2 {
+    text-align: center;
+    color: #583836;
+}
+
+.container {
+    display: block;
+    max-width: 500px;
+    background: #f5ceb8;
+    padding: 20px 20px;
+    border-radius: 20px;
+    margin: 20px auto;
+    box-shadow: 0px 0px 10px 0px rgba(248, 247, 247, 0.8);
+}
+
+p {
+    font-size: 15px;
+    line-height: 1.5;
+    color: #583836;
+}
+
+img {
+    max-width: 100%;
+}
+
+button {
+    display: block;
+    margin: 0 auto;
+    border: 2px solid #e0a1ab;
+    background: #e0a1ab;
+    font-size: 13px;
+    padding: 10px 15px;
+    border-radius: 20px;
+    transition: all 150ms ease-in-out;
+    color: #583836;
+}
+
+button:hover {
+    cursor: pointer;
+    background: white;
+}
+
+footer {
+    text-align: center;
+    margin: 15px 0;
+    font-size: 13px;
+}
+
+.id {
+    color: purple;
+}
+
+.theme-button {
+    margin-top: 30px;
+    font-size: 15px;
+    background: #e0a1ab;
+    color: #583836;
+    border: 1px solid #e0a1ab;
+}
+
+.theme-button:hover {
+    background: #e1aab2;
+}
+
+.yoga-intro-pic {
+    border-radius: 10px;
+    transition: all 150ms ease-in-out;
+}
+
+.yoga-intro-pic:hover {
+    filter: contrast(80%);
+    transform: scale(1.2);
+}
+
+.grid {
+    margin: 12px 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+}
+
+.grid img {
+    width: 100%;
+    border-radius: 6px;
+    transition: all 150ms ease-in-out;
+}
+
+.grid img:hover {
+    transform: scale(1.5);
+}
+
+.dark {
+    background: linear-gradient(110.6deg,
+            rgb(156, 116, 129) -18.3%,
+            rgb(67, 54, 74) 16.4%,
+            rgb(47, 48, 67) 68.2%,
+            rgb(27, 23, 36) 99.1%);
+    color: white;
+}
+
+.dark .container {
+    background: #584457;
+    box-shadow: 0px 0px 10px 0px rgba(248, 247, 247, 0.3);
+}
+
+.dark h1 {
+    color: white;
+}
+
+.dark h2 {
+    color: white;
+}
+
+.dark p {
+    color: white;
+}
+
+.dark a {
+    color: #142d4c;
+}
+
+.dark .id {
+    color: white;
+}
+
+.dark button {
+    color: white;
+}
+
+.dark button:hover {
+    color: #e0a1ab;
+}
+
+.dark .theme-button {
+    background: #584457;
+    border: 1px solid #584457;
+}
+
+.dark .theme-button:hover {
+    background: #e0a1ab;
+    color: white;
+    border: 1px solid #e0a1ab;
+}
